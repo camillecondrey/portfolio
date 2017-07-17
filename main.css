@@ -274,3 +274,14 @@ i {
 .icon {
     margin-top: 15px;
 }
+
+.images {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+#one {
+    height: 260px;
+}
