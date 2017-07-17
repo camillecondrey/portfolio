@@ -1,0 +1,276 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Zilla Slab';
+}
+
+.thinkful {
+    text-decoration: none;
+    color: #95A5A6
+}
+
+body {
+    box-sizing: border-box;
+}
+
+.headshot {
+    border-radius: 50%;
+    border: 5px solid #ECECEC;
+    display: inline-block;
+    width: 150px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.intro {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 100px;
+    text-align: center;
+    width: 100%;
+    padding-bottom: 80px;
+    background-color: #2C3E50;
+    padding-bottom: 200px;
+}
+
+
+h3 {
+    color: #ECECEC;
+    font-size: 30px; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+p {
+    color: #ECECEC;
+    font-size: 20px;
+}
+
+span {
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.projects {
+    background-color: #ECECEC;
+    width: 100%;
+    height: 2150px;
+    color: #2C3E50;
+    padding-bottom: 120px;
+}
+
+#lists {
+    height: 235px;
+}
+
+#moods {
+    height: 240px;
+}
+
+nav {
+    background-color: #2C3E50;
+}
+
+h1 {
+    padding-top:50px;
+    text-align: center;
+    font-size: 48px;
+}
+
+h2 {
+    margin-left: 50px;
+    margin-top: 80px;
+    font-size: 40px;
+}
+
+.live {
+    margin-left: 50px;
+    border: 2px solid #2C3E50;
+    color: #2C3E50;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.code {
+    border: 2px solid #2C3E50;
+    color: #2C3E50;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.tag-line {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    line-height: 1.4;
+    font-size: 25px;
+}
+
+button {
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-size: 15px;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+.about {
+    background-color: #2C3E50;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.bio {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 30px;
+ 
+}
+
+.credit {
+    color: #2C3E50;
+    padding-left: 30px;
+    font-size: 10px;
+    padding-bottom: 15px; 
+}
+
+footer {
+    background-color: #ECECEC;
+}
+
+#bio {
+    padding-bottom: 100px;
+    padding-top: 20px;
+}
+
+.nav {
+    font-size: 23px;
+}
+
+h3 {
+    font-size: 32px;
+}
+
+.about-heading {
+    color: #ECECEC;
+}
+
+.fydd {
+    width: 380px;
+    box-shadow: 0 0 20px #D3D3D3;
+    height: auto;
+    margin-left: 50px;
+}
+.ss2 {
+    width: 407px;
+}
+
+.images {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.description {
+    color: #2C3E50;
+    width: 1100px;
+    margin-left: 45px;
+    margin-top: 30px;
+}
+
+.contact {
+    background-color: #ECECEC;
+    height: 500px;
+    color: #2C3E50;
+
+}
+
+.contact-heading {
+    color: #2C3E50;
+}
+
+.email {
+    color: #2C3E50;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+.connect {
+    color: #2C3E50;
+    text-align: center;
+    font-size: 30px;
+}
+
+.underline {
+    border-bottom: 2px solid;
+    padding-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+}
+
+.underline2 {
+    border-bottom: 2px solid;
+    padding-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+}
+
+.p1 {
+    border-bottom: 2px solid;
+    padding-bottom: 50px;
+    width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.p2 {
+    padding-bottom: 50px;
+    width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+i {
+    color: #2C3E50;
+    text-align: center;
+    font-size: 50px;
+}
+
+.social-icons {
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+}
+
+#linkedin {
+    margin-left: 40px;
+    font-size: 50px;
+}
+
+#github {
+    font-size: 50px;
+}
+
+#email {
+    text-decoration: none;
+    color: #95A5A6;
+}
+
+.icon {
+    margin-top: 15px;
+}
