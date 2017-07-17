@@ -168,10 +168,11 @@ h3 {
 .fydd {
     width: 380px;
     box-shadow: 0 0 20px #D3D3D3;
-    height: auto;
+    height: 200px;
     margin-left: 50px;
-    flex-direction: column;
+    /*flex-direction: column;
     display: flex;
+    flex-wrap: wrap;*/
 }
 .ss2 {
     width: 407px;
@@ -180,6 +181,10 @@ h3 {
 .images {
     margin-top: 40px;
     margin-bottom: 20px;
+    /*margin-left: 0px !important;
+    margin-right: 0px !important;*/
+    /*max-width: 1000px;
+    min-width: 1000px;*/
 }
 
 .description {
@@ -300,5 +305,11 @@ and (max-device-width : 568px){
     }
     .description {
         width: 100%;
+    }
+    .p1 {
+        width: 100%;
+    }
+    .images {
+        flex-direction: column;
     }
 }
