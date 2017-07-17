@@ -129,9 +129,9 @@ button {
 }
 
 .bio {
-    width: 600px;
-    margin-left: auto;
-    margin-right: auto;
+    /*width: 600px;*/
+    margin-left: 200px;
+    margin-right: 200px;
     text-align: center;
     padding-top: 30px;
  
@@ -321,5 +321,10 @@ and (max-device-width : 568px){
         width: 100%;
         margin-right: auto;
         margin-left: auto;
+    }
+
+    .bio {
+        margin-left: 20px;
+        margin-right: 20px;
     }
 }
