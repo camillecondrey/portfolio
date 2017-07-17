@@ -170,6 +170,8 @@ h3 {
     box-shadow: 0 0 20px #D3D3D3;
     height: auto;
     margin-left: 50px;
+    flex-direction: column;
+    display: flex;
 }
 .ss2 {
     width: 407px;
@@ -284,4 +286,19 @@ i {
 
 #one {
     height: 260px;
+}
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) 
+and (min-device-width : 414px) 
+and (max-device-width : 736px)
+and (min-device-width : 320px) 
+and (max-device-width : 568px){
+    .tag-line {
+        width: 100%;
+    }
+    .description {
+        width: 100%;
+    }
 }
