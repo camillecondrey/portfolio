@@ -190,6 +190,8 @@ h3 {
 .description {
     color: #2C3E50;
     width: 1100px;
+    
+    padding-right: 300px !important;
     margin-left: 45px;
     margin-top: 30px;
 }
@@ -285,7 +287,7 @@ i {
 .images {
 	display: flex;
 	flex-direction: row;
-	flex-wrap: wrap;
+	flex-wrap: wrap !important;
 	justify-content: space-around;
 }
 
@@ -311,5 +313,13 @@ and (max-device-width : 568px){
     }
     .images {
         flex-direction: column;
+    }
+    .projects {
+        width: 100%;
+    }
+    .fydd {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
     }
 }
