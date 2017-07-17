@@ -104,8 +104,9 @@ h2 {
 
 .tag-line {
     width: 800px;
-    margin-left: auto;
-    margin-right: auto;
+    text-align: center;
+    /*margin-left: 300px;
+    margin-right: 300px;*/
     margin-top: 15px;
     line-height: 1.4;
     font-size: 25px;
@@ -129,9 +130,11 @@ button {
 }
 
 .bio {
-    /*width: 600px;*/
-    margin-left: 200px;
-    margin-right: 200px;
+    width: 600px;
+    /*margin-left: 200px;
+    margin-right: 200px;*/
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
     padding-top: 30px;
  
@@ -314,10 +317,14 @@ and (max-device-width : 568px){
     .images {
         flex-direction: column;
     }
+    .images {
+        display: block;
+    }
     .projects {
         width: 100%;
     }
     .fydd {
+        display: block;
         width: 100%;
         margin-right: auto;
         margin-left: auto;
