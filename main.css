@@ -415,7 +415,6 @@ and (max-device-width : 667px)
         width: 80%;
     }
     .email, .connect {
-        width: 320px;
         font-size: 25px;
     }  
     .nav {
